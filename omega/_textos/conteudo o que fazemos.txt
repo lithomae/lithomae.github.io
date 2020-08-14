@@ -1,0 +1,38 @@
+<h2>O que fazemos</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas similique soluta expedita voluptas quae ipsam iure, recusandae totam voluptate. Necessitatibus ut, reiciendis itaque a doloribus quasi sapiente fugiat ullam culpa!</p>
+
+<section>
+	<img src="imagens/web.jpg" alt="">
+	<h3>Aplicações Web</h3>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex saepe sed blanditiis, mollitia quae cum obcaecati est molestiae labore libero debitis? Debitis velit perferendis dolorem aliquam libero corrupti voluptates voluptatum, repudiandae laborum hic quia quis officia maiores repellat, fugiat similique.</p>
+</section>
+
+<section>
+	<img src="imagens/jogos.jpg" alt="">
+	<h3>Jogos</h3>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, corrupti! Porro et ut blanditiis libero at aut nemo, mollitia saepe ratione officiis similique. Pariatur architecto, eos reprehenderit ut natus molestiae necessitatibus dicta. Illum molestiae nihil aut accusantium quisquam, accusamus nulla.</p>
+</section>
+
+<section>
+	<img src="imagens/apps.jpg" alt="">
+	<h3>Apps</h3>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, accusamus unde quidem odio omnis molestiae porro. Explicabo quae et labore reprehenderit cum temporibus deleniti rerum, libero sequi, nesciunt neque quis mollitia veritatis! Consectetur itaque placeat nihil, magni blanditiis saepe dolor!</p>
+</section>
+
+<section>
+	<img src="imagens/marketing-digital.jpg" alt="">
+	<h3>Marketing Digital</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem numquam cumque eum dolore necessitatibus ipsa porro quaerat unde delectus incidunt. Repellat facilis accusantium repellendus vitae distinctio numquam et beatae commodi explicabo, architecto sequi quod libero doloremque nisi tenetur cumque repudiandae.</p>
+</section>
+
+<section>
+	<img src="imagens/juridico.jpg" alt="">
+	<h3>Consultoria Jurídica Digital</h3>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur perspiciatis rem nesciunt reiciendis? Magni ex assumenda earum, reprehenderit est enim soluta minima ipsa eos dicta perferendis accusamus autem voluptatum animi nihil numquam! Quidem quis veniam tempore harum blanditiis sint excepturi.</p>
+</section>
+
+<section>
+	<img src="imagens/iot.jpg" alt="">
+	<h3>Novas Tecnologias</h3>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure labore voluptas minus dolor? Libero, sunt odio ducimus voluptas incidunt in sed culpa excepturi mollitia accusamus voluptatum, a ab vitae delectus quasi neque modi quibusdam consequatur praesentium eligendi, minus tempore!</p>
+</section>

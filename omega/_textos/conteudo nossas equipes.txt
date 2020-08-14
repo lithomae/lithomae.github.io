@@ -1,0 +1,20 @@
+<h2>Nossas equipes</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, blanditiis. Temporibus numquam fugit, modi rerum adipisci esse sed aspernatur quisquam?</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates doloribus sapiente labore molestias officia saepe exercitationem quae, dolore voluptatem dicta optio vitae ipsum asperiores provident, neque ex quibusdam veniam.</p>
+
+<figure>
+    <img src="imagens/arquitetura-da-informacao.jpg" alt="">
+    <figcaption>Especialistas em AI, UX e UI</figcaption>
+</figure>
+<figure>
+    <img src="imagens/design.jpg" alt="">
+    <figcaption>Profissionais criativos</figcaption>
+</figure>
+<figure>
+    <img src="imagens/front-end.jpg" alt="">
+    <figcaption>Desenvolvedores filiados ao W3C Brasil</figcaption>
+</figure>
+<figure>
+    <img src="imagens/back-end.jpg" alt="">
+    <figcaption>Equipe especialista em sistemas web</figcaption>
+</figure>
