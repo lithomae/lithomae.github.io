@@ -11,11 +11,9 @@ html { font-size: 16px; }
 
 body {
     background-image: url(../images/fundo_design.jpg);
-    background-attachment: fixed;
     font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     color: black;
     }
-html, body {height: 100%;}
 
 body, h1, h2, p {
     margin: 0;
@@ -93,11 +91,6 @@ main {
     margin-bottom: 10px;
 }
 
-.container {
-    min-height:100%;
-    position:relative;
-}
-
 li { 
     font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -148,17 +141,29 @@ footer p {
     padding: 0 0 2% 0 ;
 }
 
-.rodape {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 /* Media Queries (Breakpoints) */
 
-/* 1) Telas a partir de 500px de largura */
+/* 1) Telas de até 524px de largura */
+@media screen and (max-width: 524px) {
+    /* Deixar o "rodapé" fixo, colado bem na base inferior do site  */
+
+    html, body {height: 100%;}
+
+    .container {
+        min-height: 100%;
+        position: relative;
+    }
+
+    .rodape {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+/* 2) Telas a partir de 500px de largura */
 @media screen and (min-width: 500px) {
     /* Aumentar o tamanho da fonte do menu "a" */
-
     a { font-size: 1rem;}
 
     /* Aumentar o espaçamento do link "topo" tanto do lado direito quanto do rodapé */
@@ -183,7 +188,7 @@ footer p {
         }
 }
 
-/* 2) Telas a partir de 700px de largura */
+/* 3) Telas a partir de 700px de largura */
 @media screen and (min-width: 700px) {
     /* Aumentar a fonte do "html" de 16px para 18px */
     html { font-size: 18px;} /* 1rem = 18px */
@@ -221,7 +226,7 @@ footer p {
     }
 }
 
-/* 3) Telas a partir de 1000px de largura */
+/* 4) Telas a partir de 1000px de largura */
 @media screen and (min-width: 1000px) {
     
     /* Aumentar a fonte do "html" de 18px para 20px */
