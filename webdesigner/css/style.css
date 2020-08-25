@@ -9,7 +9,12 @@
 
 html { font-size: 16px; }
 
-html, body {height: 100%;}
+/* html, body {height: 100%;} */
+
+html, main {
+    height: 100%;
+    margin: 0;
+}
 
 body {
     background-image: url(../images/fundo_design.jpg);
@@ -35,6 +40,20 @@ h1 {
     letter-spacing: .3rem;
     color: white;
     text-align: center;}
+
+   @keyframes animaTexto {
+        from { color: black;
+        transform: translateX(-140px); }
+        to { color: white; }
+        
+    }
+
+    .animacaotitulo {
+        animation-name: animaTexto;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+    }
 
 h2 {
     font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
@@ -93,9 +112,16 @@ main {
     margin-bottom: 10px;
 }
 
-.container {
+/* .container {
     min-height: 100%;
     position: relative;
+} */
+
+.container { min-height: 100%;}
+
+.container-interno {
+    padding: 10px;
+    padding-bottom: 30px;
 }
 
 li { 
@@ -149,10 +175,15 @@ footer p {
 }
 
 .rodape {
+    height: 90px;
+    margin-top: -2px;
+}
+
+/* .rodape {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+} */
 
 /* Media Queries (Breakpoints) */
 
@@ -181,6 +212,19 @@ footer p {
             color: black;
             padding: 0 0 2% 0 ;
         }
+
+    /* Aumentar o espaçamento do link "topo" no rodapé */
+    #link-topo {
+        position: fixed;
+        bottom: 114px;
+        right: 21px;
+    }
+
+    /* Aumentar a altura do rodapé de 90px para 92px */ 
+    .rodape {
+        height: 92px;
+        margin-top: -2px;
+    } 
 }
 
 /* 2) Telas a partir de 700px de largura */
@@ -206,10 +250,10 @@ footer p {
         color: black
         }
 
-     /* Aumentar o espaçamento do link "topo" no rodapé */
+    /* Aumentar o espaçamento do link "topo" no rodapé */
      #link-topo {
         position: fixed;
-        bottom: 110px;
+        bottom: 120px;
         right: 21px;
     }
 
@@ -218,6 +262,11 @@ footer p {
         font-size: 0.7rem;
         color: black;
         text-align: center ;
+    }
+    /* Aumentar a altura do rodapé de 90px para 102px */ 
+    .rodape {
+        height: 102px;
+        margin-top: -2px;
     }
 }
 
@@ -240,7 +289,7 @@ footer p {
     /* Aumentar o espaçamento do "link topo" tanto à direita quanto do rodapé */
     #link-topo {
     position: fixed;
-    bottom: 148px;
+    bottom: 150px;
     right: 34px;
     }
 
@@ -261,4 +310,10 @@ footer p {
     text-align: center ;
     padding: 0 0 2% 0 ;
     }
+
+    /* Aumentar a altura do rodapé de 122px para 140px */ 
+    .rodape {
+        height: 130px;
+        margin-top: -2px;
+    } 
 }
