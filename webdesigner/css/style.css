@@ -167,6 +167,7 @@ footer p {
 
 .rodape {
     flex-shrink: 0;
+    margin-bottom: 0;
 }
 
 /* Media Queries (Breakpoints) */
