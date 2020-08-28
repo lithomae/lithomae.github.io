@@ -9,7 +9,7 @@
 
 html { font-size: 16px; }
 
-html, body {height: 100%;}
+html, body {height: 88%;} 
 
 body {
     background-image: url(../images/fundo_design.jpg);
@@ -106,13 +106,9 @@ main {
     margin-bottom: 10px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 .container {
-    flex: 1 0 auto;
+    min-height: 100%;
+    position: relative;
 }
 
 li { 
@@ -166,8 +162,9 @@ footer p {
 }
 
 .rodape {
-    flex-shrink: 0;
-    margin-bottom: 0;
+    position: absolute;
+    bottom: 0 0;
+    width: 100%;
 }
 
 /* Media Queries (Breakpoints) */
