@@ -9,7 +9,7 @@
 
 html { font-size: 16px; }
 
-html, body {height: 100%;}
+html, body {height: 100%;} 
 
 body {
     background-image: url(../images/fundo_design.jpg);
@@ -163,7 +163,7 @@ footer p {
 
 .rodape {
     position: absolute;
-    bottom: 0;
+    bottom: -44%;
     width: 100%;
 }
 
