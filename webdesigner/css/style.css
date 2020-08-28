@@ -36,6 +36,19 @@ h1 {
     color: white;
     text-align: center;}
 
+    @keyframes animaTexto {
+        from { color: black; 
+        transform: translateX(-140px); }
+        to { color: white; } 
+    }
+
+    .animacaotitulo {
+        animation-name: animaTexto;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+    }
+
 h2 {
     font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     font-size: 1.3rem;
@@ -93,13 +106,9 @@ main {
     margin-bottom: 10px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 .container {
-    flex: 1 0 auto;
+    min-height: 100%;
+    position: relative;
 }
 
 li { 
@@ -153,7 +162,9 @@ footer p {
 }
 
 .rodape {
-    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Media Queries (Breakpoints) */
