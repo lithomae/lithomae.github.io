@@ -30,7 +30,6 @@ header {
 }
 
 h1 {
-    font-family: 'Source Sans Pro', 'Lucida Sans', Arial, sans-serif;
     font-weight: 200;
     letter-spacing: .3rem;
     color: white;
@@ -50,14 +49,12 @@ h1 {
     }
 
 h2 {
-    font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     font-size: 1.3rem;
     color: gray;
     padding: 2% 0 0 0;
 }
 
 p {
-    font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     color: gray;
     font-size: 1rem;
 }
@@ -65,7 +62,6 @@ p {
 img { max-width: 100%;}
 
 a {
-    font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: black;
     font-size: 0.9rem;
@@ -112,7 +108,6 @@ main {
 }
 
 li { 
-    font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: grey;
 }
@@ -137,8 +132,8 @@ figcaption {
 
 #link-topo {
     position: fixed;
-    bottom: 100px;
-    right: 15px;
+    bottom: 20px;
+    right: 13px;
 }
 
 footer {
@@ -177,8 +172,8 @@ footer p {
     /* Aumentar o espaçamento do link "topo" tanto do lado direito quanto do rodapé */
     #link-topo {
         position: fixed;
-        bottom: 105px;
-        right: 21px;
+        bottom: 20px;
+        right: 15px;
     }
 
     /* Aumentar o tamanho da fonte do "Siga-nos" de 0.7rem para 1rem */
@@ -206,7 +201,6 @@ footer p {
 
     /* Alterar o alinhamento dos textos do "p" de à esquerda para justificado e aumentar o espaçamento do link "topo" no rodapé */
     p {
-        font-family: 'Source Sans Pro', Geneva, Tahoma, sans-serif;
         color: gray;
         font-size: 1rem;
         text-align: justify;
@@ -222,8 +216,8 @@ footer p {
      /* Aumentar o espaçamento do link "topo" no rodapé */
      #link-topo {
         position: fixed;
-        bottom: 110px;
-        right: 21px;
+        bottom: 20px;
+        right: 20px;
     }
 
     /* Aumentar a fonte da "assinatura" de 0.6rem para 0.7rem */    
@@ -253,8 +247,8 @@ footer p {
     /* Aumentar o espaçamento do "link topo" tanto à direita quanto do rodapé */
     #link-topo {
     position: fixed;
-    bottom: 148px;
-    right: 34px;
+    bottom: 23px;
+    right: 20px;
     }
 
     /* Aumentar o tamanho das imagens dos "logotipos das redes sociais da largura de 25px para 30px */
