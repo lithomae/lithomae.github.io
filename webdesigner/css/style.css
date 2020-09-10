@@ -91,6 +91,9 @@ nav a:hover, nav a:focus {
     width: 95%;
 }
 
+.ativo { background-color: rgb(60, 129, 32);
+}
+
 main {
     background-color: white;
     padding: 3%;
